@@ -27,7 +27,7 @@ python setup.py develop --no_cuda_ext
 
 ## 2. Testing
 
-Download our models from [Baidu Disk](https://pan.baidu.com/s/13zNqyKuxvLBiQunIxG_VhQ?pwd=cyh2) (code: `cyh2`) or [Google Drive](https://drive.google.com/drive/folders/1ynK5hfQachzc8y96ZumhkPPDXzHJwaQV?usp=drive_link). Put them in folder `pretrain_models`
+Download our models from [Google Drive](https://drive.google.com/drive/folders/1utvLBrYmZODgsMVohaJzVNOTbiK-KQHK?usp=drive_link). Put them in folder `pretrain_models`
 
 ```shell
 # activate the environment
