@@ -23,6 +23,7 @@ pip install einops gdown addict future lmdb numpy pyyaml requests scipy yapf lpi
 - Install BasicSR
 ```
 python setup.py develop --no_cuda_ext
+```
 
 ## 2. Testing
 
