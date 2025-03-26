@@ -4,7 +4,6 @@
 # https://arxiv.org/abs/2303.06705
 # https://github.com/caiyuanhao1998/Retinexformer
 
-from ast import arg
 import numpy as np
 import os
 import argparse
@@ -20,13 +19,9 @@ import math
 from natsort import natsorted
 from glob import glob
 from skimage import img_as_ubyte
-from pdb import set_trace as stx
-from skimage import metrics
-import random
+
 from basicsr.models import create_model
 from basicsr.utils.options import dict2str, parse
-from basicsr.metrics.psnr_ssim import calculate_psnr, calculate_ssim
-from niqe import niqe as NIQE
 def self_ensemble(x, model):
     def forward_transformed(x, hflip, vflip, rotate, model):
         if hflip:
