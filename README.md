@@ -27,11 +27,11 @@ python setup.py develop --no_cuda_ext
 
 ## 2. Testing
 
-Download our models from [Baidu Disk](https://pan.baidu.com/s/13zNqyKuxvLBiQunIxG_VhQ?pwd=cyh2) (code: `cyh2`) or [Google Drive](https://drive.google.com/drive/folders/1ynK5hfQachzc8y96ZumhkPPDXzHJwaQV?usp=drive_link). Put them in folder `pretrain_weights`
+Download our models from [Baidu Disk](https://pan.baidu.com/s/13zNqyKuxvLBiQunIxG_VhQ?pwd=cyh2) (code: `cyh2`) or [Google Drive](https://drive.google.com/drive/folders/1ynK5hfQachzc8y96ZumhkPPDXzHJwaQV?usp=drive_link). Put them in folder `pretrain_models`
 
 ```shell
 # activate the environment
 conda activate ntire
 
 # run
-python3 Enhancement/test_from_dataset.py --opt Options/NTIRE_LLIE2025.yml --weights pretrain_weights/NTIRE_LLIE2025.pth 
+python3 Enhancement/test_from_dataset.py --opt Options/NTIRE_LLIE2025.yml --weights pretrain_models/NTIRE_LLIE2025.pth 
